@@ -12,9 +12,5 @@ public class Addressbook {
         pb.add(new Phonebook("Сидоров Сидор Сидорович", "0987654321", "Сидорово"));
     }
 
-    public void showAddressBook(){
-        for(Phonebook i : pb){
-            System.out.println(i.getName() + " " + i.getPhone() + " " + i.getCity());
-        }
-    }
+
 }

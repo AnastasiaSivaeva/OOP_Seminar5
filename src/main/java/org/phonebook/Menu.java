@@ -13,7 +13,7 @@ public class Menu {
         int input = in.nextInt();
 
         Filemanager run = new Filemanager();
-        Addressbook phones = new Addressbook();
+        ShowAddressbook phones =  new ShowAddressbook();
         phones.Addressbook();
 
         switch (input) {
